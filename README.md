@@ -1,6 +1,21 @@
 # jokes_app
 
 A new Flutter project.
+# Chuck Norris Jokes App
+
+Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris jokes from an API and allows users to browse through random jokes. Users can also like jokes, and liked jokes are stored in a separate screen.
+
+## Features
+
+- **Random Jokes:** Fetch Chuck Norris jokes from an external API and display them in a user-friendly format.
+
+- **Like Jokes:** Users can like their favorite jokes, and liked jokes are stored for later viewing.
+
+- **Navigation Drawer:** A navigation drawer provides easy access to different sections of the app, including Liked Jokes.
+
+## Screenshots
+
+Include screenshots of your application here to give users a visual preview.
 
 ## Getting Started
 
