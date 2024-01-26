@@ -11,6 +11,10 @@ Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris
 
 - **Like Jokes:** Users can like their favorite jokes, and liked jokes are stored for later viewing.
 
+- **Local Database:** Liked jokes are now stored locally using a database. This ensures that liked jokes persist even if the app is closed and reopened.
+
+- **Social Media Sharing:** Share your favorite Chuck Norris jokes on various social media platforms directly from the app.
+
 - **Navigation Drawer:** A navigation drawer provides easy access to different sections of the app, including Liked Jokes.
 
 ## Screenshots
