@@ -13,6 +13,16 @@ Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris
 - **Social Media Sharing:** Share your favorite Chuck Norris jokes on various social media platforms directly from the app.
 
 - **Navigation Drawer:** A navigation drawer provides easy access to different sections of the app, including Liked Jokes.
+  
+## Screen Recording Demo
+
+### Project Overview
+
+- View a demonstration of the Chuck Norris Jokes App in action through the screen recording below.
+
+### Demo
+
+![Screen Recording](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/fe70bb67-7152-4774-83c5-23f45bb31637)  
 
 ## Screenshots
 
