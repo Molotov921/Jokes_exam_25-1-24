@@ -22,7 +22,7 @@ Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris
 
 ### Demo
 
-[![Screen Recording](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/2e547765-faf3-48ed-b0c5-7d343e61c76a)]
+https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/2e547765-faf3-48ed-b0c5-7d343e61c76a
 
 ## Screenshots
 
