@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 class Splash extends StatefulWidget {
-  const Splash({super.key});
+  const Splash({Key? key}) : super(key: key);
 
   @override
   State<Splash> createState() => SplashState();
@@ -20,12 +20,9 @@ class SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFFCD630),
       body: Center(
-        child: SizedBox(
-          width: 450,
-          height: 450,
-          child: Image.asset('assets/images/splash_logo.png'),
-        ),
+        child: Image.asset('assets/images/splash_logo.png'),
       ),
     );
   }

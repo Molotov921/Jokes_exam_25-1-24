@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:jokes_app/jokes%20provider/joke_provider.dart';
 import 'package:provider/provider.dart';
+import '../../jokes provider/joke_provider.dart';
 
 class LikedJokesScreen extends StatelessWidget {
   const LikedJokesScreen({Key? key}) : super(key: key);
@@ -13,15 +13,33 @@ class LikedJokesScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Liked Jokes"),
         centerTitle: true,
+        backgroundColor: const Color(0xFFf4ac08),
       ),
+      backgroundColor: const Color(0xFFf4ac08),
       body: ListView.builder(
         itemCount: jokeProvider.getLikedJokes().length,
         itemBuilder: (context, index) {
           final likedJoke = jokeProvider.getLikedJokes()[index];
-          return ListTile(
-            title: Text(likedJoke.value),
+          return Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: _buildLikedJokeCard(likedJoke.value),
           );
         },
+      ),
+    );
+  }
+
+  Widget _buildLikedJokeCard(String jokeText) {
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 16.0),
+      padding: const EdgeInsets.all(16.0),
+      decoration: BoxDecoration(
+        color: Colors.white.withOpacity(0.7),
+        borderRadius: BorderRadius.circular(30),
+      ),
+      child: Text(
+        jokeText,
+        style: const TextStyle(color: Colors.black),
       ),
     );
   }

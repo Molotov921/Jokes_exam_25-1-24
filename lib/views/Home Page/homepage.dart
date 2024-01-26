@@ -23,13 +23,12 @@ class HomePage extends StatelessWidget {
 
   Widget _buildScaffold(BuildContext context) {
     return Scaffold(
-      extendBodyBehindAppBar:
-          true, // This will extend the body behind the AppBar
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: const Text("Chuck Norris Jokes"),
         centerTitle: true,
-        backgroundColor: Colors.transparent, // Make the AppBar transparent
-        elevation: 0, // Remove the shadow
+        backgroundColor: Colors.transparent,
+        elevation: 5,
       ),
       drawer: Drawer(
         child: Container(
@@ -68,7 +67,6 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
-
       body: const _JokeWidget(),
     );
   }
@@ -109,42 +107,70 @@ class _JokeWidget extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                IconButton(
+                _buildRoundButton(
                   onPressed: () =>
                       context.read<JokeProvider>().showPreviousJoke(),
-                  icon: const Icon(Icons.arrow_back),
-                  iconSize: 36,
-                  color: Colors.black,
+                  icon: Icons.arrow_back,
+                  color: const Color(0xFFef9904),
                 ),
-                IconButton(
+                _buildRoundButton(
                   onPressed: () async {
                     await context.read<JokeProvider>().showNextJoke();
                   },
-                  icon: const Icon(Icons.arrow_forward),
-                  iconSize: 36,
-                  color: Colors.black,
+                  icon: Icons.arrow_forward,
+                  color: const Color(0xFFef9904),
                 ),
-                IconButton(
+                _buildRoundButton(
                   onPressed: () => context.read<JokeProvider>().toggleLike(),
                   icon: context.watch<JokeProvider>().currentJoke.isLiked
-                      ? const Icon(Icons.favorite, color: Colors.red)
-                      : const Icon(
-                          Icons.favorite_border,
-                          color: Colors.black,
-                        ),
-                  iconSize: 36,
+                      ? Icons.favorite
+                      : Icons.favorite_border,
+                  color: context.watch<JokeProvider>().currentJoke.isLiked
+                      ? Colors.red
+                      : const Color(0xFFef9904),
                 ),
-                IconButton(
+                _buildRoundButton(
                   onPressed: () => _shareJoke(
                       context, context.read<JokeProvider>().currentJoke),
-                  icon: const Icon(Icons.share),
-                  iconSize: 36,
+                  icon: Icons.share,
+                  color: const Color(0xFFef9904),
                 ),
               ],
             ),
           ],
         ),
       ],
+    );
+  }
+
+  Widget _buildRoundButton({
+    required VoidCallback onPressed,
+    required IconData icon,
+    required Color color,
+  }) {
+    return Container(
+      width: 60,
+      height: 60,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        color: color,
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.3),
+            spreadRadius: 1,
+            blurRadius: 5,
+            offset: const Offset(5, 5),
+          ),
+        ],
+      ),
+      child: IconButton(
+        onPressed: onPressed,
+        icon: Icon(
+          icon,
+          size: 30,
+          color: Colors.white,
+        ),
+      ),
     );
   }
 
@@ -165,12 +191,20 @@ class _JokeWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Expanded(
-            child: SingleChildScrollView(
-              child: Text(
-                joke.value,
-                style:
-                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                textAlign: TextAlign.center,
+            child: Center(
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: SingleChildScrollView(
+                  child: Text(
+                    joke.value,
+                    style: const TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
               ),
             ),
           ),
