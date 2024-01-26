@@ -6,6 +6,7 @@ class Joke {
   final String updatedAt;
   final String url;
   final String value;
+  bool isLiked;
 
   Joke({
     required this.categories,
@@ -15,6 +16,7 @@ class Joke {
     required this.updatedAt,
     required this.url,
     required this.value,
+    this.isLiked = false,
   });
 
   factory Joke.fromJson(Map<String, dynamic> json) {
@@ -26,6 +28,20 @@ class Joke {
       updatedAt: json['updated_at'],
       url: json['url'],
       value: json['value'],
+      isLiked: json['isLiked'] ?? false,
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'categories': categories,
+      'created_at': createdAt,
+      'icon_url': iconUrl,
+      'id': id,
+      'updated_at': updatedAt,
+      'url': url,
+      'value': value,
+      'isLiked': isLiked,
+    };
   }
 }

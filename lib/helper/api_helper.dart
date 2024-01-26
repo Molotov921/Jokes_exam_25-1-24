@@ -1,15 +1,13 @@
+// ignore_for_file: avoid_print
+
 import 'dart:convert';
 import 'package:jokes_app/model/jokes_model.dart';
 import 'package:http/http.dart' as http;
 
-class APIHelper {
-  APIHelper._();
+Future<Joke?> fetchChuckNorrisJokes() async {
+  String api = "https://api.chucknorris.io/jokes/random";
 
-  static final APIHelper apiHelper = APIHelper._();
-
-  Future<List<Joke>?> fetchChuckNorrisJokes() async {
-    String api = "https://api.chucknorris.io/jokes/random";
-
+  try {
     http.Response response = await http.get(Uri.parse(api));
 
     if (response.statusCode == 200) {
@@ -19,8 +17,11 @@ class APIHelper {
 
       Joke joke = Joke.fromJson(decodedData);
 
-      return [joke];
+      return joke;
     }
-    return null;
+  } catch (e) {
+    print("Error fetching Chuck Norris joke: $e");
   }
+
+  return null;
 }
