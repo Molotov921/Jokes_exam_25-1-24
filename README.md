@@ -16,14 +16,9 @@ Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris
 
 ## Screenshots
 
-![splash_screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/f99c02cf-3be2-47e8-9001-c7346f80ea50)
-![performing_share_joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/67793c3d-9838-4d1e-94a3-b44a5679be8a)
-![performing_like_joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/5f8bba5d-bacb-4d44-ba36-390651189d71)
-![liked_jokes_screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/ac41b5e0-e65e-4b3f-9849-cc667acf9351)
-![liked_jokes_design_display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/267607d1-df8e-4846-9089-d7eb56fde37f)
-![homepage](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/1e7fd476-3069-4c6f-9134-3b25bbdddb18)
-![drawer_display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/1b4aa8df-9b5c-4ae7-9893-781b71461f31)
-
+| Splash Screen | Home Page | Drawer Display | Liked Jokes Screen | Performing Like Joke | Liked Jokes Design Display | Performing Share Joke |
+|:-------------:|:---------:|:--------------:|:-------------------:|:----------------------:|:--------------------------:|:--------------------:|
+| ![Splash Screen](screenshots/splash_screen.png) | ![Home Page](screenshots/homepage.png) | ![Drawer Display](screenshots/drawer_display.png) | ![Liked Jokes Screen](screenshots/liked_jokes_screen.png) | ![Performing Like Joke](screenshots/performing_like_joke.png) | ![Liked Jokes Design Display](screenshots/liked_jokes_design_display.png) | ![Performing Share Joke](screenshots/performing_share_joke.png) |
 
 ## Getting Started
 
