@@ -13,12 +13,32 @@ Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris
 - **Social Media Sharing:** Share your favorite Chuck Norris jokes on various social media platforms directly from the app.
 
 - **Navigation Drawer:** A navigation drawer provides easy access to different sections of the app, including Liked Jokes.
+  
+## Screen Recording Demo
+
+### Project Overview
+
+- View a demonstration of the Chuck Norris Jokes App in action through the screen recording below.
+
+### Demo
+
+[![Screen Recording](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/290fd45c-66fd-4c8f-8c8f-e58a956f77bd)]
 
 ## Screenshots
 
-| Splash Screen | Home Page | Drawer Display | Liked Jokes Screen | Performing Like Joke | Liked Jokes Design Display | Performing Share Joke |
-|:-------------:|:---------:|:--------------:|:-------------------:|:----------------------:|:--------------------------:|:--------------------:|
-| ![Splash Screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d253383e-bd47-405a-9d39-3d2e37366d87) | ![Home Page](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/f63ff320-ca46-4f1f-829f-d977c3e2d110) | ![Drawer Display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/2282efce-61e8-4614-a8bc-ac5bb1123942) | ![Liked Jokes Screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/1e7058d8-36df-455f-81af-2049246e7014) | ![Performing Like Joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d26312a1-4cfd-455e-868b-13ed7a3926f0) | ![Liked Jokes Design Display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d807dc36-6036-44cc-b651-2b2326cc161e) | ![Performing Share Joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/c414eaae-64af-4090-9994-47fa030f3f84) |
+| Splash Screen | Home Page | Drawer Display |
+|:-------------:|:---------:|:--------------:|
+| ![Splash Screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d253383e-bd47-405a-9d39-3d2e37366d87) | ![Home Page](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/f63ff320-ca46-4f1f-829f-d977c3e2d110) | ![Drawer Display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/2282efce-61e8-4614-a8bc-ac5bb1123942) |
+
+| Liked Jokes Screen | Performing Like Joke | Liked Jokes Design Display |
+|:-------------------:|:----------------------:|:--------------------------:|
+| ![Liked Jokes Screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/1e7058d8-36df-455f-81af-2049246e7014) | ![Performing Like Joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d26312a1-4cfd-455e-868b-13ed7a3926f0) | ![Liked Jokes Design Display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d807dc36-6036-44cc-b651-2b2326cc161e) |
+
+| Performing Share Joke | Share Joke 2 | Share Joke 2.1 |
+|:----------------------:|:-------------:|:--------------:|
+| ![Performing Share Joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/c414eaae-64af-4090-9994-47fa030f3f84) | ![Share Joke 2](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/c291349f-d3d3-4332-93d3-3678c595dd44) | ![Share Joke 2.1](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/7eb29be7-b765-43c7-b8ab-00016ba1a9eb) |
+
+
 
 ## Getting Started
 
