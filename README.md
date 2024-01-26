@@ -1,5 +1,3 @@
-![share_joke_2](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/06e3affb-839b-4d1a-8383-2395aade9960)
-![share_joke_2 1](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/3940fbbe-6f9f-4714-b2f7-c62f417eab44)
 # Chuck Norris Jokes App
 
 Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris jokes from an API and allows users to browse through random jokes. Users can also like jokes, and liked jokes are stored in a separate screen.
