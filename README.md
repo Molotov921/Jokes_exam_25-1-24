@@ -18,7 +18,14 @@ Chuck Norris Jokes App is a simple Flutter application that fetches Chuck Norris
 
 | Splash Screen | Home Page | Drawer Display | Liked Jokes Screen | Performing Like Joke | Liked Jokes Design Display | Performing Share Joke |
 |:-------------:|:---------:|:--------------:|:-------------------:|:----------------------:|:--------------------------:|:--------------------:|
-| ![Splash Screen](screenshots/splash_screen.png) | ![Home Page](screenshots/homepage.png) | ![Drawer Display](screenshots/drawer_display.png) | ![Liked Jokes Screen](screenshots/liked_jokes_screen.png) | ![Performing Like Joke](screenshots/performing_like_joke.png) | ![Liked Jokes Design Display](screenshots/liked_jokes_design_display.png) | ![Performing Share Joke](screenshots/performing_share_joke.png) |
+| ![Splash Screen](![splash_screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d253383e-bd47-405a-9d39-3d2e37366d87)
+![performing_share_joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/c414eaae-64af-4090-9994-47fa030f3f84)
+![performing_like_joke](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d26312a1-4cfd-455e-868b-13ed7a3926f0)
+![liked_jokes_screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/1e7058d8-36df-455f-81af-2049246e7014)
+![liked_jokes_design_display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d807dc36-6036-44cc-b651-2b2326cc161e)
+![homepage](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/f63ff320-ca46-4f1f-829f-d977c3e2d110)
+![drawer_display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/2282efce-61e8-4614-a8bc-ac5bb1123942)
+screenshots/splash_screen.png) | ![Home Page](screenshots/homepage.png) | ![Drawer Display](screenshots/drawer_display.png) | ![Liked Jokes Screen](screenshots/liked_jokes_screen.png) | ![Performing Like Joke](screenshots/performing_like_joke.png) | ![Liked Jokes Design Display](screenshots/liked_jokes_design_display.png) | ![Performing Share Joke](screenshots/performing_share_joke.png) |
 
 ## Getting Started
 
