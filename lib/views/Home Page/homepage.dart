@@ -44,6 +44,9 @@ class HomePage extends StatelessWidget {
                     "https://lh3.googleusercontent.com/a/ACg8ocIbB3Msrb90avMuPrxnRp0gI_9YGwHGiVVr-XrzR55l7w=s96-c-rg-br100",
                   ),
                 ),
+                decoration: BoxDecoration(
+                  color: Color(0xFFFFBE71),
+                ),
               ),
               ListTile(
                 title: const Text("Home"),
