@@ -28,7 +28,8 @@ https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/2e547765-faf3-
 
 | Splash Screen | Home Page | Drawer Display |
 |:-------------:|:---------:|:--------------:|
-| ![Splash Screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d253383e-bd47-405a-9d39-3d2e37366d87) | ![Home Page](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/f63ff320-ca46-4f1f-829f-d977c3e2d110) | ![Drawer Display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/2282efce-61e8-4614-a8bc-ac5bb1123942) |
+| ![Splash Screen](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/d253383e-bd47-405a-9d39-3d2e37366d87) | ![Home Page](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/f63ff320-ca46-4f1f-829f-d977c3e2d110) | ![Drawer Display](https://github.com/Molotov921/Jokes_exam_25-1-24/assets/106720289/f4961aac-9a7f-4959-8116-af5279342dc1)
+) |
 
 | Liked Jokes Screen | Performing Like Joke | Liked Jokes Design Display |
 |:-------------------:|:----------------------:|:--------------------------:|
